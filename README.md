@@ -1,11 +1,12 @@
 ---
-title: Vue Vitesse Lite + Caddy
-description: Opinionated Vite Starter Template, utilizing `Caddy` to serve the built single page app
+title: Vue 3 + Vite Starter (Vitesse Lite)
+description: Lightweight Vue 3 + Vite + TypeScript starter with file-based routing, UnoCSS and auto-imports — deploy in one click on Railway.
 tags:
   - Node
   - Vue 3
   - Vite
   - TypeScript
+  - UnoCSS
   - Caddy
 ---
 
@@ -13,51 +14,31 @@ tags:
   <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
 
-<center>
+# Vue 3 + Vite Starter (Vitesse Lite)
+
+**Lightweight Vue 3 starter** based on [Vitesse](https://github.com/antfu/vitesse) — file-based routing, component auto-importing, UnoCSS and TypeScript out of the box. Deploys on Railway in one click.
+
+## ✨ Why use this template?
+
+- ⚡️ **Vue 3 + Vite** — instant HMR, born with fastness
+- 🗂 **File-based routing** — pages map directly to files, no router config
+- 📦 **Components auto-importing** — use components without `import`
+- 🎨 **UnoCSS** — instant on-demand atomic CSS engine
+- 😃 **Pure CSS icons** — from any icon set via Iconify
+- 🔥 **`<script setup>` syntax** — the modern Vue way
+- ✅ **Vitest** — unit and component testing pre-configured
+- 🦾 **TypeScript** — of course
+- 🚀 **Served by Caddy** — fast, static SPA hosting with gzip
+
+## Deploy and Host
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/-Ukdc9?referralCode=2Sbs5r)
 
-</center>
+Click the button above to deploy this template on [Railway](https://railway.com). Railway builds the app, serves it with Caddy, and gives you a public URL in about a minute.
 
-<h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
-</h6>
+### Live Demo
 
-<h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
-</h5>
-
-## Features
-
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
-
-- 🗂 [File based routing](./src/pages)
-
-- 📦 [Components auto importing](./src/components)
-
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-- 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
-
-- ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
-
-- 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
-
-<br>
-
-See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
-## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
+See it running: [vitesse-lite.netlify.app](https://vitesse-lite.netlify.app/)
 
 ## Pre-packed
 
@@ -78,3 +59,13 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+
+## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
+
+- ~~i18n~~
+- ~~Layouts~~
+- ~~SSG~~
+- ~~PWA~~
+- ~~Markdown~~
+
+See [Vitesse](https://github.com/antfu/vitesse) for the full feature set.
