@@ -1,0 +1,14 @@
+[build]
+builder = "RAILPACK"
+
+[deploy]
+# Start gerado pelo Railpack: `caddy run --config /Caddyfile --adapter caddyfile`
+# (o Railpack detecta o Caddyfile do projeto e instala o Caddy automaticamente)
+# Healthcheck: o Caddyfile responde 200 em /health
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+# Nota: variáveis de template (prompts do wizard) são configuradas na UI do
+# Railway ao criar/publicar o template (Dashboard → Templates), NÃO aqui.
