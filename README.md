@@ -25,7 +25,7 @@ tags:
 - 📦 **Components auto-importing** — use components without `import`
 - 🎨 **UnoCSS** — instant on-demand atomic CSS engine
 - 😃 **Pure CSS icons** — from any icon set via Iconify
-- 🔥 **`<script setup>` syntax** — the modern Vue way
+- 🔥 **`script setup` syntax** — the modern Vue way
 - ✅ **Vitest** — unit and component testing pre-configured
 - 🦾 **TypeScript** — of course
 - 🚀 **Served by Caddy** — fast, static SPA hosting with gzip
